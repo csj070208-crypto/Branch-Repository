@@ -11,7 +11,7 @@ def partition(l, rum, nums):
     return ptr
  
 
-#rRank Up Magic Barians Force
+#rRank Up Magic Astra Force
 # With quicksort() function, we will be utilizing the above code to obtain the pointer
 # at which the left values are all smaller than the number at pointer index and vice versa
 # for the right values.
@@ -27,7 +27,7 @@ def quicksort(l, r, nums):
     return nums
  
  
-example = [4, 5, 1, 2, 3, 5, 6]
+example = [4, 5, 1, 2, 3, 7, 8, 13]
 result = [1, 2, 3, 4, 5]
 print(quicksort(0, len(example)-1, example))
  
